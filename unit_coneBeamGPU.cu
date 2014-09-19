@@ -100,11 +100,7 @@ int coneBeamProject(
   float sourceSampleDistance,
   float* normalizationFactor,
   float*  misAlignments,
-  float pixelWidth,
-  void  ( *getProjection    )( float** , int[3] , int* , int* , int ) ,
-  void  ( *storeProj      )( float** , int[3] , int* , int* , int ) ,
-  void  ( *getVolume      )( float** , int[3] , int , int , int ) ,
-  void  ( *donewithVolume   )( float** , int[3] ) )
+  float pixelWidth)
 {
   
   //Declarations
